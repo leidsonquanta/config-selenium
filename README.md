@@ -44,3 +44,6 @@ ou
 
 ### Verificar o Log
     sudo tail -f /var/log/selenium/selenium.log
+
+### As configurações podem ser alteradas em:
+    /etc/default/selenium
