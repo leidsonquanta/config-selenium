@@ -13,7 +13,7 @@ Processo de configuração selenium grid
 PS.: Garantir que o pacote daemon esteja instalado
 
 ## Usuário selenium
-sudo groupadd -r selenium
+`sudo groupadd -r selenium`
 sudo useradd -r -d /var/lib/selenium -s /bin/bash -m -g selenium -G selenium selenium
 
 ## Logs
