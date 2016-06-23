@@ -31,6 +31,6 @@ SELENIUM_PORT=5555
 MAXOPENFILES=8192
 
 # Url do hub
-URL_HUB = http://192.168.1.100:4444/grid/register
+URL_HUB="http://192.168.1.100:4444/grid/register"
 
-SELENIUM_ARGS="-jar ${SELENIUM_HOME}/selenium-server-standalone.jar -role webdriver ${URL_HUB} -port ${SELENIUM_PORT}"
+SELENIUM_ARGS="-jar ${SELENIUM_HOME}/selenium-server-standalone.jar -role webdriver -hub ${URL_HUB} -port ${SELENIUM_PORT}"

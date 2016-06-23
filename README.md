@@ -25,7 +25,7 @@ PS.: Garantir que o pacote daemon esteja instalado
 
 ### Criar link simbolico
     cd /var/lib/selenium
-    sudo ln -s selenium-server-standalone-2.32.0.jar selenium-server-standalone.jar
+    sudo ln -s selenium-server-standalone-2.53.0.jar selenium-server-standalone.jar
 
 ### Arquivos de serviço
     sudo cp /git-repository/config/init.d/selenium /etc/init.d/
